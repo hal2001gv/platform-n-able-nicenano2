@@ -25,7 +25,7 @@
         "0x802A"
       ]
     ],
-    "usb_product": "NiceNano v2",
+    "usb_product": "Pro Micro nRF52840",
     "mcu": "nrf52840",
     "variant": "nicenano2",
     "bsp": {
