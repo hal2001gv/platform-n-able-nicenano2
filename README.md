@@ -1,4 +1,4 @@
-# Development platform for ARM BLE devices supported by [Apache NimBLE](https://github.com/apache/mynewt-nimble) for [PlatformIO](https://platformio.org)
+# Development platform for nice!nano v2 supported by [Apache NimBLE](https://github.com/apache/mynewt-nimble) for [PlatformIO](https://platformio.org)
 
 [![Examples](https://github.com/h2zero/platform-n-able/actions/workflows/examples.yml/badge.svg?branch=n-able)](https://github.com/h2zero/platform-n-able/actions/workflows/examples.yml)
 
@@ -12,7 +12,7 @@ Apache NimBLE is an open-source Bluetooth 5.1 stack (both Host & Controller) tha
 
 ```ini
 [env]
-platform = https://github.com/h2zero/platform-n-able.git@^1.0.0
+platform = https://github.com/hal2001gv/platform-n-able-nicenano2.git@^1.0.0
 framework = arduino
 lib_deps = h2zero/NimBLE-Arduino@^1.4.0
 board = ...
