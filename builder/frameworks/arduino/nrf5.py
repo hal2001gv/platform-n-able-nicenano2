@@ -28,7 +28,7 @@ env = DefaultEnvironment()
 platform = env.PioPlatform()
 board = env.BoardConfig()
 
-FRAMEWORK_DIR = platform.get_package_dir("framework-n-able-arduino")
+FRAMEWORK_DIR = platform.get_package_dir("framework-n-able-arduino-nicenano2")
 assert isdir(FRAMEWORK_DIR)
 
 env.Append(
