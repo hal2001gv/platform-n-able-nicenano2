@@ -1,8 +1,8 @@
 {
-  "name": "n-able",
-  "title": "n-able",
+  "name": "n-able-nicenano2",
+  "title": "n-able-nicenano2",
   "description": "Development platform for Arm BLE devices supported by the NimBLE stack",
-  "homepage": "https://github.com/h2zero/platform-n-able",
+  "homepage": "https://github.com/hal2001gv/platform-n-able-nicenano2",
   "license": "Apache-2.0",
   "keywords": [
     "dev-platform",
@@ -18,20 +18,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/h2zero/platform-n-able.git"
+    "url": "https://github.com/hal2001gv/platform-n-able-nicenano2"
   },
   "version": "1.1.0",
   "frameworks": {
     "arduino": {
-      "package": "framework-n-able-arduino",
+      "package": "framework-n-able-arduino-nicenano2",
       "script": "builder/frameworks/arduino/nrf5.py"
     }
   },
   "packages": {
-    "framework-n-able-arduino": {
+    "framework-n-able-arduino-nicenano2": {
       "type": "framework",
       "optional": false,
-      "version": "https://github.com/h2zero/n-able-Arduino.git@0.2.0"
+      "version": "https://github.com/hal2001gv/n-able-arduino-nicenano2.git#master"
     },
     "toolchain-gccarmnoneeabi": {
       "type": "toolchain",
