@@ -72,3 +72,6 @@ Available options for uploading firmware are: JLink, Black Magic Probe, ST-Link,
 
 ## Debugging
 Supported debugging tools are: JLink, Black Magic Probe, ST-Link, and cmsis-dap. Both on-board and external debug tools are supported with 1-click debugging.
+
+## Credits
+This used insights for the nice!nano v2 board from [ICantMakeThings](https://github.com/ICantMakeThings/Nicenano-NRF52-Supermini-PlatformIO-Support.git) as well as [LeeorNahum](https://github.com/LeeorNahum/platform-n-able-pro-micro-nrf52840.git).
